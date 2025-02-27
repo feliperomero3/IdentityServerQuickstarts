@@ -2,11 +2,11 @@
 
 This first quickstart covers the most basic scenario: **Protecting APIs for server-to-server communication**
 
-The [client](Client) will request an access token from [IdentityServer](/IdentityServer) using its client ID and secret and then use the token to gain access to the [API](/ProtectedAPI).
+The [client](./src/Client) will request an access token from [IdentityServer](./src/IdentityServer) using its client ID and secret and then use the token to gain access to the [Protected API](./src/ProtectedAPI).
 
 ## Actors
 
-- **Client**: The application that wants to access the API
+- **Client**: The application that wants to access the Protected API
 - **IdentityServer**: The authorization server
 - **ProtectedAPI**: The resource server
 
